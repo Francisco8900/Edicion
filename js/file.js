@@ -74,7 +74,7 @@ lienzo.translate(Sx,Sy);
     alert('componente X'+componenety);
     
      if(componenetx>=componenety){
-        alert('hasta aqui funciona X>Y'+componenetx);
+        alert('hasta aqui funciona X>Y !='+componenetx);
 
         if(componentx>300){
            Wx= componenteMayor(componenetx);
