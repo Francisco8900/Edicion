@@ -1,14 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=cd, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>paco.com</title>
-    <link rel="stylesheet" href="Styles/style.css">
-    <script src="js/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=cd, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>paco.com</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/file.js"></script>
+  <link rel="stylesheet" href="Styles/style.css">
+  
+
 </head>
+
 <body>
-    
+  <header class="text-center  header1"> Muestra de mis Capacidades para Programar en Diseño Web</header>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+    <!-- Brand -->
+    <p class="f">Diferentes Modificadores de Imagen</p>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Productos</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+  <aside>
+    <div id="capa1">
+      <div class="contenido menu1">
+        <p>File</p>
+        <ul>
+
+          <li onclick=cargarlienzo()>Load</li>
+          <li onclick=grabarlienzo()>Save</li>
+        </ul>
+      </div>
+      <div class="contenido menu1">
+        <p>Option1</p>
+        <ul>
+          <li>First Option</li>
+          <li><a href="#">Secound Option</a></li>
+          <li><a href="#">Thirth Option</a></li>
+          <li><a href="#">Fourth Option</a></li>
+          <li><a href="#">Fiveth Option</a></li>
+        </ul>
+      </div>
+      <div class="contenido menu1">
+        <p>Option2</p>
+        <ul>
+          <li><a href="#">First Option</a></li>
+          <li><a href="#">Secound Option</a></li>
+          <li><a href="#">Thirth Option</a></li>
+          <li><a href="#">Fourth Option</a></li>
+          <li><a href="#">Fiveth Option</a></li>
+        </ul>
+      </div>
+      <div class="contenido menu1">
+        <p>Option3</p>
+        <ul>
+          <li><a href="#">First Option</a></li>
+          <li><a href="#">Secound Option</a></li>
+          <li><a href="#">Thirth Option</a></li>
+          <li><a href="#">Fourth Option</a></li>
+          <li><a href="#">Fiveth Option</a></li>
+        </ul>
+      </div>
+      <div class="contenido menu1">
+        <p>Option4</p>
+        <ul>
+          <li><a href="#">First Option</a></li>
+          <li><a href="#">Secound Option</a></li>
+          <li><a href="#">Thirth Option</a></li>
+          <li><a href="#">Fourth Option</a></li>
+          <li><a href="#">Fiveth Option</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div id="capa2">
+
+    </div>
+    <div id="capa3">
+
+    </div>
+    <div id="capa4">
+
+    </div>
+    <div id="capa5">
+
+    </div>
+  </aside>
+  <section id="cajaformulario">
+    <form name="formulario">
+      <p>Imágenes:<br><input type="file" name="archivos" id="archivos"></p>
+    </form>
+  </section>
+  <section id="cajadatos">
+    <canvas id="lienzo" width="300" height="300"></canvas>
+  </section>
 </body>
+
 </html>
